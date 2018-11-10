@@ -1,0 +1,69 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-image: url("../images/hogwarts.jpg");
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+}
+
+#wrapper {
+  width: 1000px;
+  height: 95%;
+  box-sizing: border-box;
+  margin: 2.5% auto;
+  background-color: rgb(20, 16, 77);
+}
+
+#sub-wrapper {
+  position: relative;
+  top: 15%;
+  color: white;
+}
+
+button {
+  display: block;
+  width: 75%;
+  height: 10%;
+  margin: 0 auto;
+  font-size: 40px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  color: white;
+}
+
+img {
+  height: 200px;
+}
+
+h1 {
+  padding-top: 2.5%;
+  font-size: 6.5em;
+  font-weight: bold;
+  color: gold;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+#start {
+  margin-top: 10%;
+  background: purple;
+  color: white;
+  border: 2px solid blue;
+}
+
+#quiz-area {
+color: white;
+}
